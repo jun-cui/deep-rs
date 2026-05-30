@@ -1,0 +1,11 @@
+[package]
+name = "deep-rs"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A deep learning library written from scratch in Rust"
+repository = "https://github.com/jun-cui/deep-rs"
+readme = "README.md"
+
+[dependencies]
+matrixmultiply = "0.3"

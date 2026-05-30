@@ -1,0 +1,25 @@
+# Compiled output / build artifacts
+/target
+debug/
+
+# Cargo.lock: ignore for libraries, commit for binaries.
+# deep-rs is a library, so it's ignored here. If you later add a
+# src/main.rs and ship an app, delete this line and commit the lock.
+# https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+Cargo.lock
+
+# rustfmt backup files
+**/*.rs.bk
+
+# MSVC debug info (generated on Windows)
+*.pdb
+
+# JetBrains IDEs (RustRover, CLion, IntelliJ)
+.idea/
+
+# VS Code
+.vscode/
+
+# OS clutter
+.DS_Store
+Thumbs.db
